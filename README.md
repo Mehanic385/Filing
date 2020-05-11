@@ -19,7 +19,20 @@ Antarmuka konfigurasi Kali NetHunter memungkinkan Anda untuk dengan mudah mengko
 
 # How to install Kali-Nethunter in Termux
 ````
+#What Must Be Required 
+
 1.This Data Requires a minimum of 1.16GB of Storage 
 2.Download Using Wifi or the Internet 
 3.Files Drawn At Home Files Termux Because there the files will be processed
+
+# How to Install Kali-Nethunter
+1.pkg update && pkg upgrade
+2.pkg install axel
+3.pkg install proot
+4.pkg install unzip zip
+5.pkg install tar
+6.pkg install git
+7.pkg install mc <File Manager Termux>
+8.git clone <Link Github>
+9.mc
 ````
