@@ -35,4 +35,6 @@ Antarmuka konfigurasi Kali NetHunter memungkinkan Anda untuk dengan mudah mengko
 7.pkg install mc <File Manager Termux>
 8.git clone <Link Github>
 9.mc
+  Choose File
+(https://github.com/Mehanic385/Kali-Nethunter/blob/master/Screenshot_2020-05-12-00-34-05-12.png) 
 ````
