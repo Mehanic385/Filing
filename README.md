@@ -16,3 +16,10 @@ Sebagai penguji penetrasi atau profesional keamanan yang berpengalaman, sangat p
 
 # Configuration Management 
 Antarmuka konfigurasi Kali NetHunter memungkinkan Anda untuk dengan mudah mengkonfigurasi file konfigurasi yang rumit melalui antarmuka web lokal.  Fitur ini, bersama-sama dengan kernel khusus yang mendukung 802.11 injeksi nirkabel dan layanan koneksi balik VPN yang telah dikonfigurasikan sebelumnya, menjadikan NetHunter alat keamanan jaringan yang hebat atau kotak drop diskrit - dengan Kali Linux di ujung jari Anda di manapun Anda berada!
+
+# How to install Kali-Nethunter in Termux
+````
+1.This Data Requires a minimum of 1.16GB of Storage 
+2.Download Using Wifi or the Internet 
+3.Files Drawn At Home Files Termux Because there the files will be processed
+````
