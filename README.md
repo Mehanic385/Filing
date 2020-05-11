@@ -60,6 +60,49 @@ To use KeX, start the KeX client, enter your password and click connect Tip: For
 
 ````
 
+# sudo <root password>
+sudo (/ˈsuːduː/[2] atau /ˈsuːdoʊ/[2][3]) adalah suatu program untuk sistem operasi komputer sejenis Unix yang memungkinkan para pengguna untuk menjalankan program-program hak keamanan pengguna lain, secara default merupakan "superuser".[4] Asalnya merupakan singkatan "superuser do"[5] karena sudo pada versi-versi yang lebih lama didesain untuk menjalankan program-program hanya sebagai superuser. Namun, versi-versi berikutnya menambah dukungan untuk menjalankan perintah-perintah bukan hanya sebagai superuser tetapi juga sebagai pengguna (restricted) lain, sehingga juga umumnya dikembangkan sebagai "substitute user do".[6][7] Meskipun kasus terakhir itu mencerminkan fungsionalistas saat ini secara lebih akurat, sudo masih sering disebut "superuser do" karena sering digunakan untuk tugas-tugas administratif.
+````
+Usage Command "sudo":
+
+Pengguna "Root" adalah pengguna default dengan semua hak. Untuk mengubah password root Anda perlu login sebagai root pada command prompt dan jalankan perintah "passwd". Anda juga bisa menjalankan perintah "su". Perintah su (short for sub user) memungkinkan untuk mengubah pemilik sesi login (yaitu pengguna yang awalnya membuat sesi itu dengan masuk ke sistem) tanpa pemilik harus terlebih dahulu keluar dari sesi itu.
+Berikut adalah demonstrasi bagaimana password Root bisa diubah.
+Prasyarat
+1. Sistem operasi Linux (Ubuntu, CentOS, Debian dll) - Dalam hal ini kita bekerja pada CentOS 7
+2. Izin root
+Mengubah Password Root
+1. Buka Terminal sistem operasi Anda. Masuk sebagai "root" dengan mengetikkan perintah "su".
+"Su" biasanya cara termudah dan paling mudah untuk mengubah kepemilikan sesi login menjadi root atau pengguna lainnya.
+Permintaan kata sandi akan ditampilkan. Ketikkan kata sandi Anda saat ini untuk login sebagai root.
+2. Setelah login sebagai root jalankan perintah "passwd". Baris perintah akan meminta password baru. Masukkan kata sandi baru di command prompt (Catatan: Kata sandi tidak akan ditampilkan di layar). Setelah mengetikkan kata sandi Anda akan diminta untuk mengetik ulang kata sandi dan kata sandi Anda akan berubah.
+
+Cara mengganti password user di Kali-Nethunter 
+Untuk mengganti password user pada sistem operasi
+Berbasic GNU/Linux Pertama buka console terminal/termux 
+Dengan cara menekan tombol CTRL+ALT+T Pada Keyboard <Ini Buat Di Pc/Laptop>
+Lalu ketikan perintah berikut. 
+
+kali@localhost:~$ sudo passwd kali
+
+kali adalah username yg sy gunakan
+Di Kali-Nethunter sy silahkan ganti
+Dengan nama user yg kamu gunakan, 
+Kemudian di minta untuk mengetikan paswwd root
+
+kali@localhost:~$ sudo passwd kali
+kali : #Password Lama kamu masukan
+
+Setelah itu akan diminta untuk mengetik password baru
+kali@localhost:~$ sudo passwd kali
+kali : #Password Lama
+Enter New Password: #Masukan Password baru
+Retype New password: #Verify Password kamu tadi
+passwd: password updated
+successfully
+
+Tada Udah selesai
+```
+
 # Tips From kali.org:
 ````
 1.Jalankan "apt update && apt full-upgrade" hal pertama setelah instalasi.  Jika Anda memiliki banyak ruang penyimpanan yang tersedia, Anda mungkin ingin menjalankan "apt install kali-linux-default" juga.
