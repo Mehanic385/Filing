@@ -31,10 +31,7 @@ Antarmuka konfigurasi Kali NetHunter memungkinkan Anda untuk dengan mudah mengko
 3.pkg install proot
 4.pkg install unzip zip
 5.pkg install tar
-6.pkg install git
-7.pkg install mc <File Manager Termux>
-8.git clone <Link Github>
-9.mc
-  Choose File
-https://github.com/Mehanic385/Kali-Nethunter/blob/master/Screenshot_2020-05-12-00-34-05-12.png 
+6.pkg install wget curl
+7.wget 
+8. ./Kali-Nethunter
 ````
