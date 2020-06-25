@@ -26,10 +26,20 @@ Antarmuka konfigurasi Kali NetHunter memungkinkan Anda untuk dengan mudah mengko
 3.Files Drawn At Home Files Termux Because there the files will be processed
 
 # How to Install Kali-Nethunter
-1.pkg update && pkg upgrade
-2.pkg install axel proot unzip zip tar wget curl
-3.wget https://raw.githubusercontent.com/Mehanic385/Kali-Nethunter/master/Kali-Nethunter
-4.chmod +x Kali-Nethunter && ./Kali-Nethunter
+1.
+pkg update && pkg upgrade
+pkg install axel proot unzip zip tar wget curl
+wget https://raw.githubusercontent.com/Mehanic385/Kali-Nethunter/master/Kali-Nethunter
+chmod +x Kali-Nethunter && ./Kali-Nethunter
+````
+# Simple Install Kali-Nethunter 
+````
+pkg update && pkg upgrade
+pkg install axel proot curl wget git
+git clone https://github.com/Mehanic385/Kali-Nethunter &&
+cd Kali-Nethunter &&
+chmod +x * && 
+./Kali-Nethunter
 ````
 # Greetings From kali.org
 Thank you kali.org because you have made Kali-Nethunter for android
