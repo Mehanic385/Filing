@@ -27,13 +27,9 @@ Antarmuka konfigurasi Kali NetHunter memungkinkan Anda untuk dengan mudah mengko
 
 # How to Install Kali-Nethunter
 1.pkg update && pkg upgrade
-2.pkg install axel
-3.pkg install proot
-4.pkg install unzip zip
-5.pkg install tar
-6.pkg install wget curl
-7.wget https://raw.githubusercontent.com/Mehanic385/Kali-Nethunter/master/Kali-Nethunter
-8.chmod +x Kali-Nethunter && ./Kali-Nethunter
+2.pkg install axel proot unzip zip tar wget curl
+3.wget https://raw.githubusercontent.com/Mehanic385/Kali-Nethunter/master/Kali-Nethunter
+4.chmod +x Kali-Nethunter && ./Kali-Nethunter
 ````
 # Greetings From kali.org
 Thank you kali.org because you have made Kali-Nethunter for android
@@ -116,3 +112,12 @@ Tada Udah selesai
 Link Forum Nethunter: https://forums.kali.org/forumdisplay.php?14-NetHunter-Forums
 
 ````
+# Tips Solution Eror Nethunter-rootless
+````
+dpkg --configure -a
+apt install -f
+apt --fix-broken install
+apt install clean
+apt autoremove
+apt remove libc6-dev libgcc-s1 
+`````
